@@ -66,7 +66,7 @@ $key = $_GET['key'];
 if(md5($key)=='0e572091431906509826762988736854'&(strlen($key)>=10))
 {
         $sha1();
-        echo "여기부터 내일 개발할게요 ㅎㅎㅎㅎ";
+        echo "개발중!!!!!";
 }
 if (!file_exists($sha1)) die("no file found for this sha1 hash");
 if (!is_readable($sha1)) die("cannot read file data!");
